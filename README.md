@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Flowers That Never Fade 🌷
 
-# Run and deploy your AI Studio app
+*A little garden where flowers bloom forever.*
 
-This contains everything you need to run your app locally.
+An interactive flower website featuring a 3D floral world and an animated ASCII lily bouquet.
 
-View your app in AI Studio: https://ai.studio/apps/70aa91d3-f2e4-4b53-9693-ec74d8d4a521
+## Preview
+<img width="959" height="473" alt="image" src="https://github.com/user-attachments/assets/89d53bbb-45af-42e1-ae51-6fc87513aad8" />
+
+<img width="958" height="474" alt="image" src="https://github.com/user-attachments/assets/ea0a0c09-1382-45a2-b7b6-54ae00f7c616" />
+
+
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+```bash
+git clone https://github.com/Bhumika-78/ascii-flowers.git
+cd ascii-flowers
+npm install
+npm run dev
+```
 
+## Built With
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React
+- Vite
+- Three.js
+- JavaScript
+- CSS
+
+---
+Made with ♡ & vibe coding by Bhumika 🌷
